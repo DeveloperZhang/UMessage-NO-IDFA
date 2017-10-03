@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
 
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
-    s.source_files  = "UMessage-NO-IDFA/SDK/*.{a,h}"
+    s.source_files  = "**/*.{a,h}"
 
   # s.public_header_files = "Classes/**/*.h"
 
