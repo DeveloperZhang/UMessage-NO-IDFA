@@ -93,9 +93,9 @@ Pod::Spec.new do |s|
 
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
-    s.source_files  = "UMessage-NO-IDFA/SDK/*.{h,a}"
+    s.source_files  = "SDK/*.{h,a}"
 
-    s.public_header_files = "UMessage-NO-IDFA/SDK/*.h"
+    s.public_header_files = "SDK/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
