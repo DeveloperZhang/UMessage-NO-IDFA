@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
 
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
-    s.source_files  = "**/*.{a,h}"
+    s.source_files  = "**/*.h"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -109,8 +109,7 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
-  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
+  s.preserve_paths = '**/*.a'
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -123,7 +122,7 @@ Pod::Spec.new do |s|
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
-
+  #s.library   = "libUMessage_Sdk_1.5.0a"
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
